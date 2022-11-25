@@ -1,0 +1,288 @@
+Create simbrief flight plan
+
+Load plane, start EFB, import simbrief plan
+EFB: weights page, load plane, connect GPU
+     fuel tab: set here the correct fuel
+
+****************************************************************************
+PRE START 
+****************************************************************************
+PARKING BRAKE ........SET
+GPU .......CONNECTED
+THROTTLE ......THRUST LEVERS IDLE
+ENGINE MASTERS .....OFF
+EXT Power .... ON
+BATTERIES .....ON
+GENERATOR SWITCHES ........ON
+ADIRS ........SET TO NAV
+PANEL DISPLAYS ....BRIGHTNESS SET
+NAV LIGHTS ......ON
+PANEL LIGHTS ........ON if required
+LANDING GEAR LEVER .......CHECK DOWN
+FLAPS .......UP
+SPOILER .......RETRACTED
+FUEL QUANTITY .....CHECK
+FASTEN SEAT BELTS ........ON
+NO SMOKING SIGNS ......ON
+DE-ICE ....TEST / CHECK
+
+Check Weather (ATIS, Flight Services)
+Request Clearance
+
+QNH ............. SET
+TRANSPONDER .....SET, STANDBY
+BEACON LIGHTS ......ON
+EMERGENCY LIGHTS ........ARM
+FMC ......SETUP (see below)
+
+
+***********************************************************************
+FMC SETUP
+***********************************************************************
+INIT
+  REQUEST to get simbrief plan
+  NEXT PAGE fill weights (ZFW autofill)
+F-PLN
+  Set DEPARTURE and DEST
+PERF
+  FLAPS 1 (and nothing else here)
+  FLEX TEMP guesstimate, maybe 50
+  Now you can pull V1, VR, V2 auto set
+ 
+
+
+***********************************************************************
+STARTUP
+***********************************************************************
+DEPARTURE BRIEFING .......COMPLETE
+DOORS ....CLOSED (CHECK DOOR PAGE)
+
+APU ....MASTER ON, then START
+APU BLEED ........ RUN (WHEN AVAILABLE)
+APU GEN .........ON / CHECK VOLTS
+EXT POWER .......OFF overhead and tablet
+Request Pushback – Initiate Pushback
+THRUST LEVERS .......IDLE
+ENGINE AREA .......CLEAR
+FUEL PUMP SWITCHES .......ON
+MODE SELECTOR .......IGN / START
+LEFT ENGINE .......(ENG 1)
+ENGINE MASTER 1.....START
+AT N2 > 20% FUEL FLOW ...CHECK ON
+N1 INCREASING AS N2 INCR. ....CHECK
+OIL PRESSURE ......CHECK
+GENERATOR SWITCH .....ON
+REPEAT FOR RIGHT ENGINE ....(ENG2)
+FUEL FLOW ......CHECK
+HYDRAULIC PUMP SWITCHES ........ON
+APU ......OFF
+MODE SELECTOR .......NORM
+
+***********************************************************************
+BEFORE TAXI
+***********************************************************************
+PROBE/WINDOW HEAT .......AUTO
+HDG INDICATOR / ALTIMITERS .......SET
+STDBY INSTRUMENTS ........SET
+RADIOS AND AVIONICS .....SET FOR DEPARTURE
+AUTOPILOT .......SET, don‘t activate
+F/D .......ON
+AUTOBRAKE .......MAX
+ELEVATOR TRIM ........SET FOR TAKE-OFF
+FLIGHT CONTROLS ....FREE AND CORRECT
+
+
+***********************************************************************
+ TAXI
+***********************************************************************
+TAXI LIGHTS .................................................................ON
+PARKING BRAKE ..............................................RELEASE
+TAXI to assigned runway .................SPEED Max. 20 knots
+BRKS/GYRO/TURN COORDINATOR...CHECK during taxi
+T/O CONFIG.......................................DEPRESS / CHECK
+T/O MEMO..............................................................GREEN
+
+
+***********************************************************************
+BEFORE TAKE OFF
+***********************************************************************
+PARKING BRAKE ........................................................SET
+FLIGHT INSTRUMENTS ........................................CHECK
+ENGINE INSTRUMENTS .......................................CHECK
+TAKE-OFF DATA ...............................(V1, VR, V2) CHECK
+NAV EQUIPMENT ..................................................CHECK
+LANDING LIGHTS .........................................................ON
+STROBE LIGHT ............................................................ON
+PITOT HEAT .............................................................AUTO
+DE-ICE .......................................................AS REQUIRED
+TRANSPONDER ......................................................TA/RA
+Request Takeoff Clearance
+
+***********************************************************************
+TAKE OFF
+***********************************************************************
+Smoothly increase thrust to 40% N1 let spool up
+TAKEOFF THRUST .................................FULL OR TO/GA
+BRAKES .............................................................RELEASE
+AT 100 KTS ................................. SPEED CROSSCHECK
+AT V1 .....................................COMMITED / GO (Decision)
+AT Vr .....................................................................ROTATE
+PITCH ..........................slowly to 10deg, increase to 15deg
+POSITIVE RATE OF CLIMB ...............................GEAR UP
+PASSING F SPEED (PFD) ...................................FLAPS 0
+SPOILERS ............................................................DISARM
+LANDING LIGHTS .....................................AS REQUIRED
+
+
+***********************************************************************
+CLIMB
+***********************************************************************
+THRUST LEVERS ......CLB DETENT
+AP1.....ENGAGE (when suitable)
+TAXI LIGHTS .......OFF
+
+At TA (Transition-Altitude)
+ALTIMETER ...PULL TO SET STD (29.92 / 1013)
+BELOW 10'000FT ....MAX. 250 KIAS
+ATC ....AS REQUIRED
+
+Passing 10'000 ft
+LANDING LIGHTS ....OFF
+
+Above 10'000 ft
+FASTEN SEAT BELTS ....OFF
+
+
+***********************************************************************
+CRUISE
+***********************************************************************
+Accelerate to Cruise Speed
+ENGINE & INSTRUMENTS ......MONITOR
+FUEL QUANTITY .....CHECK
+RADIOS .....TUNED & SET
+AUTOPILOT ....CHECK & SET
+LIGHTS .....AS REQUIRED
+ATIS / AIRPORT INFORMATION ......CHECK
+ALTIMETER ....CHECK
+RADIOS .....SET
+DE-ICE ......AS REQUIRED
+TOD ....SET TCAS TO BELOW
+
+Descent Speed
+FL240 .....0.76 MACH
+FL180 .....0.67 MACH
+At TA (Transition-Altitude)
+ALTIMETER....RESET TO LOCAL
+FL120 .....280 KIAS
+
+Below 10'000 ft
+SPEED......250 KIAS
+LANDING LIGHTS ....ON
+LS .....ON
+FUEL QUANTITIES & BALANCE ....CHECK
+FLAPS / LANDING GEAR ........CHECK UP
+
+Check Weather (ATIS, Flight Services)
+
+***********************************************************************
+APPROACH PLANNING
+***********************************************************************
+Check what is the first WPT with alt. restrictions.
+Check in EFB how far do we have to start descent.
+Go to MCDU fix page (right left button).
+Choose the WPT where we arrive in our descent.
+Mark as radius the distance to start descending. That's our TOD
+
+***********************************************************************
+APPROACH
+***********************************************************************
+TOD: Set desired altitude in A/P, and set managed descent.
+Provide destination data in MCDU
+
+FASTEN SEAT BELTS .......ON
+RADIOS .....SET
+SPEED: .....ESTABLISH 210 KIAS
+LANDING LIGHTS ...... CHECK ON
+TAXI LIGHTS ......ON
+GND SPOILERS ......ARM
+AUTO BRAKE ......SET
+
+FLAPS ......FLAPS 1
+SPEED: ....ESTABLISH 180 KIAS
+
+AT 6 DME ....FLAPS 2
+SPEED: .....MANAGED
+LANDING GEAR ......DOWN
+LANDING GEAR 3 GREEN .....FLAPS 3
+FLAPS .......FULL
+
+Final Glideslope Descent :
+SPEED: .....ESTABLISH 145 KIAS
+PARKING BRAKE .....VERIFY OFF
+DE-ICE.....AS REQUIRED
+
+***********************************************************************
+LANDING
+***********************************************************************
+LANDING GEAR ......CHECK DOWN
+AUTOPILOT ......AS REQUIRED
+GO-AROUND ALTUTUDE .....SET IN FCU
+AUTO-THRUST ....AS REQUIRED
+LANDING MEMO .......NO BLUE
+LANDING SPEED .......MANAGED
+AFTER TOUCH DOWN ......REVERSE THRUS
+SPOILERS .......VERIFY EXTENDED
+BRAKES .....AS REQUIREDT
+AT 60 KIAS ......CANCEL REVERSE THRUST
+
+
+
+
+***********************************************************************
+AFTER LANDING
+***********************************************************************
+SPOLERS ........................................................DISARMED
+FLAPS ...............................................................RETRACT
+ENG MODE SELECTOR .........................................NORM
+LANDING LIGHTS .......................................................OFF
+STROBE LIGHTS ........................................................OFF
+ANTI ICE ....................................................AS REQUIRED
+APU .........................................................................START
+BRAKE TEMP ........................................................CHECK
+TRANSPONDER .........................................................OFF
+Taxi to Assigned Gate/Parking (Speed Max 20 knots)
+APU .................................................START / CHECK RUN
+APU ..........................................GEN ON / CHECK VOLTS
+ELEVATOR TRIM ...............................TAKEOFF SETTING
+turning into the Gate:
+TAXI LIGHTS ...............................................................OFF
+
+
+
+
+***********************************************************************
+PARKING / SHUTDOWN
+***********************************************************************
+PARKING BRAKES .....................................................SET
+THRUST LEVERS ......................................................IDLE
+GROUND CONTACT ......................................ESTABLISH
+GROUND OPERATIONS ..............AS REQUIRED (FMC2)
+ELECTRICAL POWER ....................................ESTABLISH
+ENGINE MASTER 1 & 2 ..............................................OFF
+PARKING BRAKES ....................................AS REQUIRED
+NAV LIGHTS ................................................................OFF
+EXTERIOR LIGHTS ...................................AS REQUIRED
+ANTI ICE .....................................................................OFF
+PASSENGER SIGNS ..................................................OFF
+DOORS ....................................................................OPEN
+FLIGHT DIRECTOR ....................................................OFF
+APU BLEED ...............................................AS REQUIRED
+FUEL PUMPS .......................................................ALL OFF
+BEACON .....................................................................OFF
+ECAM STS ........................................................DEPRESS
+PANEL LIGHTS ...........................................................OFF
+ADIRS ..........................................................................OFF
+AVIONICS ....................................................................OFF
+NO SMOKING .............................................................OFF
+APU ............................................................AS REQUIRED
+BATTERIES ...............................................AS REQUIRED
