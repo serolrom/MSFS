@@ -1,0 +1,73 @@
+Ext PWR
+White or orange lights -> turn off
+INS -> Nav (x3)
+
+-----------------------------------------------------
+MCDU:
+CLR
+Menu -> Acars -> Enter Simbrief username
+
+INIT -> Align IRS, Cost index
+Next page -> Set weights on EFB from simbrief
+	then transfer values to MCDU
+	
+F-PLN -> select DPT Airport -> Select SID
+go down to end of flt. plan -> select STAR
+
+T/O APPR -> get to the 'plane icon' in the EFB
+Insert needed values in EFB (get weight from the INIT -> Next page)
+Click on CALCULATE in EFB to get the V speeds and Flex
+
+
+
+APU Master switch ON -> Start -> It takes pretty long
+When APU is AVAIL -> APU Bleed ON
+Ext PWR Off
+EFB -> GPU off
+Overhead -> Trim switches UP (x6)
+
+Front panel -> Press FLX TO button -> set Flex temp knob
+SPD/MACH -> to V2 value from EFB
+Altimeter -> Set
+
+WE ARE READY FOR PUSHBACK ---------------------------
+
+ENG START:
+Ignition knob to A, then right START button for right engine, shows green. 
+When N2 is 20%, give engine fuel
+When START button goes back to ARM, push the left button for left engine
+Same for engine fuel
+Ignition Off
+APU Bleed Off, APU Off
+
+READY TO TAXI ---------------------------------------
+
+Set initial altitude and click the knob
+Click PROFILE and NAV
+Flaps as required
+Lights
+Test brakes
+
+TAKE OFF
+Lights
+Set cont engines
+Set Auto Throttle
+Activate A/P #1
+
+APPROACH --------------------------------------------
+
+Set Minimums (MDA)
+Set ILS and Course
+Set desired ALT for descent
+In the altimeter knob, arrow down cursor to set it in the Desc profile. Push Profile again. It will descent at TOD
+Set airport elevation in the indicator in the dashboard
+Button 'CRN' for constraints so it will comply with restrictions
+
+
+TURNING FINAL----------------------------------------
+CPT Nav mode knob -> ILS
+A/P Vert. speed click LAND button
+AutoLand can be enabled with A/P #2 switch
+Auto Brake - set
+Spoilers - ARM
+Eng to Cont to avoid shutdowns
