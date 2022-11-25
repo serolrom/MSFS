@@ -1,0 +1,103 @@
+** ANTES DE ARRANCAR ********************
+-----------------------------------------
+REVISION EXTERIOR   COMPLETADA
+
+FUNDA DE PITOT      A BORDO
+ASIENTO             REGULADO
+FRENO DE PARKING    PUESTO 'ON'
+
+LLAVES CARBURANTE   AMBAS ABIERTAS 'ON'
+LUCES               APAGADAS 'OFF'
+RADIO INTERCOM      APAGADA 'OFF'
+
+ALTIMETRO           CALADO
+MANDO GASES         AL MINIMO
+----------------------------------------
+**** ARRANQUE DEL MOTOR ****************
+----------------------------------------
+LLAVE CONTACTO      ENCENDER 'ON'
+COMBUSTIBLE         CANTIDAD OK
+CHOKE               SI ES NECESARIO
+
+BOMBA COMBUSTIBLE   ENCENDER 'ON'
+PRESION COMBUSTIBLE VERIFICAR
+BOMBA COMBUSTIBLE   APAGADA 'OFF'
+
+MAGNETOS            AMBAS 'ON'
+HELICE              LIBRE Y CONTACTO
+PRESION ACEITE      EN LIMITES
+VUELTAS DE MOTOR    2200
+
+CINTURONES          ABROCHADOS
+CHOKE               CERRADO
+AVIONICS MASTER     ENCENDER 'ON'
+RADIO INTERCOM      ENCENDER 'ON'
+FREQ. RADIO         SET
+COMPROBAR RADIO     TEST/LLAMADA
+
+FLAPS               ARRIBA
+LUCES ESTROBO       ENCENDER 'ON'
+----------------------------------------
+**** RODAJE  ***************************
+----------------------------------------
+RODAR PTO ESPERA    FRENO 'OFF'
+INSTRUMENTOS        COMPROBAR
+FRENOS              COMPROBAR
+FRECUENCIAS RADIO   SET
+
+----------------------------------------
+**** EN PUNTO DE ESPERA ****************
+----------------------------------------
+FRENO PARKING       PUESTO 'ON'
+TEMP ACEITE         OK / 60º
+
+PRUEBA DE MAGNETOS  3600 RPM
+BOMBA COMBUSTIBLE   PUESTA 'ON'
+PRESION COMBUSTIBLE OK
+NIVELES COMBUSTIBLE AMBOS OK
+LLAVES CARBURANTE   AMBA ABIERTAS
+MANDOS              LIBRES
+TRIM                NEUTRAL
+FLAPS               CHECK & SET
+PUERTAS             CERRADAS Y BLOCADAS
+CINTURONES          ABROCHADOS
+CHOKE               CERRADO 'OFF'
+
+LUZ ATERRIZAJE      ENCENDER 'ON'
+AUTORIZACIÓN DESPEGUE SOLICITAR
+ENTRAR EN PISTA Y VIGILAR TRAFICO
+
+----------------------------------------
+**** ASCENSO  **************************
+----------------------------------------
+400 FT AGL:
+  BOMBA COMBUSTIBLE APAGAR 'OFF'
+  LUZ ATERRIZAJE    APAGAR 'OFF'
+  FLAPS             ARRIBA
+  RPM MOTOR         AJUSTAR
+  
+----------------------------------------
+**** ULTIMO TERCIO VIENTO EN COLA ******
+----------------------------------------
+BOMBA COMBUSTIBLE   PUESTA   'ON'
+LUZ ATERRIZAJE      ENCENDER 'ON'
+
+----------------------------------------
+**** BASE  *****************************
+----------------------------------------
+CALAJE FLAPS        A REQUERIMIENTO
+
+----------------------------------------
+**** PARADA DE MOTOR  ******************
+----------------------------------------
+FRENO PARKING       PUESTO   'ON'
+LUCES               APAGADAS 'OFF'
+MANDO INTERCOM      APAGADA  'OFF'
+AVIONICS MASTER     APAGADO  'OFF'
+BOMBA COMBUSTIBLE   APAGADA  'OFF'
+FLAPS               ARRIBA
+MANDO DE GASES      AL MINIMO
+MAGNETOS            APAGADAS 'OFF'
+
+LLAVE CONTACTO      APAGADA  'OFF'/QUITAR
+FUNDA DE MOTOR      PONER
