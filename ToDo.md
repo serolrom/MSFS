@@ -1,1 +1,1 @@
-[ ] Learn GPS
+* Learn the GPS
