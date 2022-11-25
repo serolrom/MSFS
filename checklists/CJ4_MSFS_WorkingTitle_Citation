@@ -1,0 +1,16 @@
+Create simbrief plan
+
+
+BATTERY - ON
+AVIONICS - DISPATCH (right switch down)
+
+FMC - IDX - PAGE2 - MOD SET - GND POWER
+FMC - POS INIT - COPY/PASTE the given one
+FMC - IDX - PAGE2 - ROUTE MENU - Import FPL
+FMC - Add Departure and Arrival
+ AVIONICS -> ON
+FMC - Performance INIT
+FMC - Performance Take OFF, then NEXT -> SEND
+
+START ENGINES: Checklist button, go through it
+https://drive.google.com/file/d/1Znd_krRvwBH0J_f0uwdlI-t-bSk93xal/edit
