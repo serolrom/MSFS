@@ -1,0 +1,131 @@
+Create simbrief plan
+Set OPTIONS-MISC-UNITS OF MEASUREMENT to HYBRID in the sim before loading the airplane
+
+EXT PWR 1 & 2 - ON
+Nav light - ON
+
+Fuel pumps - ON: MAIN 1, OVRD 2 MAIN, OVRD 3 MAIN, MAIN 4, CTR (but NOT STAB)
+Activate packs (bottom line x4)
+
+APU ON -> START
+STBY PWR - AUTO
+IRSs - ALIGN -> NAV (del tirón)
+APU GEN 1 & 2 - ON
+APU Bleed x1 - ON (maybe it is already?)
+
+MCDU: -----------------------------------------------
+MENU -> SALTY
+MISC->COPILOT visibility
+IRS->INSTA ALIGN if so desired
+INT REF - IDENT
+
+POS INIT
+Set REF AIRPORT as departure
+GPS POS -> SET IRS POS
+
+ROUTE
+SEND REQUEST, then LOAD, will get latest Simbrief
+ACTIVATE, EXEC
+NEXT PAGE to see the legs
+
+PERF INIT
+SEND REQUEST, then ACCEPT when received
+Alternatively, set manually from Simbrief
+
+THRUST LIMIT
+Here you can derate the take off, so clear the scratchpad and select any of the left values.
+This will give some speeds you can check with the runway lenght, etc.
+Or use TO for not derating and Takind off full power
+
+
+-----------------------------------------------------
+A/P IAS - Set to V2 + 20
+Flight director ON
+Set target altitude
+Activate LNAV and VNAV
+Set QNH
+Set transponder, set SBY
+Seatbelts ON
+
+READY FOR PUSHBACK -----------------------------------
+
+Beacon light ON
+Disable packs (x4)
+Request pushback
+
+If message 'FUEL LOW CTRL R, L':
+Press 2x CTR fuel pumps 
+
+Engine button START (Overhead)
+When N1 >= 2, give fuel
+Message shows in screen 'BLEED # OFF'
+Do the same for all engines
+
+Packs ON
+APU bleed off
+APU Off
+
+READY TO TAXI
+
+Set flaps 10
+Taxi lights
+
+HOLDING SHORT -----------------------
+
+Landing lights, Strobe, Logo ON
+Runway lights ON
+Taxi lights OFF
+Transponder TARA
+
+LINE UP -----------------------------
+
+Auto brake - RTO,
+Auto throttle - ARMED
+
+TAKE OFF/CLB -----------------------
+
+TOGA (CTRL-SHFT-G)
+Follow flight director
+GEAR UP
+AUTO PILOT ENGAGE (Left-most button of the three)
+FLAPS UP as needed
+10,000ft Landing lights OFF
+Seatbelts OFF
+QNH Standard when at transition alt.
+
+DESCENT ----------------------------
+
+Set your T/D before the actual T/D mark, or ir will be a bit hard.
+MFD: NAV RAD -> It shows the ILS freq, no need to dial it. 
+SET ILS COURSE MANUALLY
+
+ALT > 10,000ft -> -1800fpm
+ALT < 10,000ft -> -1500fpm
+VNAV gets deactivated automatically
+
+Seatbelts ON
+Get METAR
+Set QNH
+
+Landing lights, Runway lights
+
+APPROACH ----------------------------
+
+MFD: INIT - APPROACH - Select Flap/Spd and paste where applicable
+Auto brakes - as desired
+Spoilers - ARMED
+On final - press LOK, then APP (for Glide Slope)
+200 kts - Flaps 1
+Keep decreasing flaps as needed
+GEAR DWN
+Set speed as defined previously in FMC
+
+MINIMUMS
+Auto Throttle OFF
+Auto Pilot OFF
+
+RUNWAY CLEAR ------------------------
+
+Flaps UP, Spoilers OFF
+Lights, Transponder
+APU ON
