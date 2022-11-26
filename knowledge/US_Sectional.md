@@ -18,7 +18,7 @@ Permission: Only 2 way radio. If they say your callsign, you can enter.
 
 ---
 #### Uncontrolled E and G:  
-E is from 1200 ft above.  In magenta shaded, it's from 700 ft. In magenta dotted, it's from SFC
+E is from 1200 ft above.  In magenta shaded, it's from 700 ft. In magenta dotted, it's from SFC  
 G is from 'Ground' SFC up to E.  
 
 No relevant difference in VFR. Just subtle differences in minimums etc.  
