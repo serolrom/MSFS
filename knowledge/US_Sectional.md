@@ -30,7 +30,9 @@ Magenta: Non-towered
 
 ATIS, AWOS, CT (ctrl tower): not relevant -> Provided by controller in VATSIM (disregard sectional info)  
 Cursive Number followed by star -> Field elev.  
-Two digit number -> Lenght of the rwy in ft.
+Two digit number -> Lenght of the rwy in ft.  
+Frequency followed by rounded C: CTAF.  
+RP 6 -> Right pattern RWY 6 (when it shows like this)
 
 ---
 #### Restricted/Prohibited:  
