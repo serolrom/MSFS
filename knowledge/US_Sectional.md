@@ -14,7 +14,7 @@ Permission: "Cleared to Class C" statement needed. If intending to enter C airsp
 ---
 #### Class D:  
 Blue dotted line. 4 miles out. No cake shaped, just a cylinder and a number indicating altitude MSL of the airspace.  
-Permission: Only 2 way radio. If they say your callsign, you can enter.
+Permission: Only 2 way radio. If they say your callsign, you can enter.  
 
 ---
 #### Uncontrolled E and G:  
@@ -32,7 +32,14 @@ ATIS, AWOS, CT (ctrl tower): not relevant -> Provided by controller in VATSIM (d
 Cursive Number followed by star -> Field elev.  
 Two digit number -> Lenght of the rwy in ft.  
 Frequency followed by rounded C: CTAF.  
-RP 6 -> Right pattern RWY 6 (when it shows like this)
+RP 6 -> Right pattern RWY 6 (when it shows like this)  
+
+Most D airports are open only part time, see sectional. Controller may adhere to these controlled times.
+Flags in the sectional mark visual points the controller may refer to.  
+
+---
+#### V-Airways:  
+Depicted but not relevant in VFR
 
 ---
 #### Restricted/Prohibited:  
