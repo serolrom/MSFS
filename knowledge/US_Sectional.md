@@ -24,13 +24,19 @@ G is from 'Ground' SFC up to E.
 No relevant difference in VFR. Just subtle differences in minimums etc.  
 
 ---
+#### Airports:  
+Blue: Towered  
+Magenta: Non-towered  
+
+---
 #### Restricted/Prohibited:  
 Blue spiked line.  Named like R-xxxxxxxx or P-xxxxxxxxxxxx  
 You can review in the sectional descriptions about restriction hours etc.
 
 ---
-#### MOA, Military ops:  
-Red spiked lines, not simulated.
+#### MOA/ALERT (Military/Alert):  
+Red spiked lines.  
+Military ops not simulated in VATSIM. In RL you are encouraged to be in comms with ATC (usually Center or App) for flight following.
 
 ---
 #### Special use airspace:  
