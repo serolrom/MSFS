@@ -28,6 +28,10 @@ No relevant difference in VFR. Just subtle differences in minimums etc.
 Blue: Towered  
 Magenta: Non-towered  
 
+ATIS, AWOS, CT (ctrl tower): not relevant -> Provided by controller in VATSIM (disregard sectional info)  
+Cursive Number followed by star -> Field elev.  
+Two digit number -> Lenght of the rwy in ft.
+
 ---
 #### Restricted/Prohibited:  
 Blue spiked line.  Named like R-xxxxxxxx or P-xxxxxxxxxxxx  
