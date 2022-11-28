@@ -3,6 +3,9 @@ ToDo
 * Learn the GPS
 * Learn IFR
 * Do some VFR flight for Baronair  
+* Set up a fictional medical airline with an A320
+    * Test
+    * Test 2
 
 ******************************************
 DONE  
