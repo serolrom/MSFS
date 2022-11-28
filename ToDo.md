@@ -6,6 +6,7 @@ ToDo
 * Set up a fictional medical airline with an A320
     * Make up an airline name, be open minded 'Meteor 212', etc.  
       * Febris
+      * Beljan
     * Create a livery overtime.
     * Do chained missions, start where we left off.
 
