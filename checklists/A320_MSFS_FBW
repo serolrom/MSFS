@@ -168,6 +168,19 @@ RADIOS .....SET
 DE-ICE ......AS REQUIRED
 TOD ....SET TCAS TO BELOW
 
+***********************************************************************
+APPROACH PLANNING
+***********************************************************************
+Check what is the first WPT with alt. restrictions.
+Check in EFB how far do we have to start descent.
+Go to MCDU fix page (right left button).
+Choose the WPT where we arrive in our descent.
+Mark as radius the distance to start descending. That's our TOD
+
+
+***********************************************************************
+DESCENT
+***********************************************************************
 Descent Speed
 FL240 .....0.76 MACH
 FL180 .....0.67 MACH
@@ -184,14 +197,6 @@ FLAPS / LANDING GEAR ........CHECK UP
 
 Check Weather (ATIS, Flight Services)
 
-***********************************************************************
-APPROACH PLANNING
-***********************************************************************
-Check what is the first WPT with alt. restrictions.
-Check in EFB how far do we have to start descent.
-Go to MCDU fix page (right left button).
-Choose the WPT where we arrive in our descent.
-Mark as radius the distance to start descending. That's our TOD
 
 ***********************************************************************
 APPROACH
