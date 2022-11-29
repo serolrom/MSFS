@@ -16,25 +16,22 @@ BATTERIES .....ON
 GENERATOR SWITCHES ........ON
 ADIRS ........SET TO NAV
 PANEL DISPLAYS ....BRIGHTNESS SET
-NAV LIGHTS ......ON
+->NAV LIGHTS ......ON
 PANEL LIGHTS ........ON if required
 LANDING GEAR LEVER .......CHECK DOWN
 FLAPS .......UP
 SPOILER .......RETRACTED
 FUEL QUANTITY .....CHECK
-FASTEN SEAT BELTS ........ON
-NO SMOKING SIGNS ......ON
+->FASTEN SEAT BELTS ........ON
+->NO SMOKING SIGNS ......ON
 DE-ICE ....TEST / CHECK
 
 Check Weather (ATIS, Flight Services)
-Request Clearance
-
 QNH ............. SET
 TRANSPONDER .....SET, STANDBY
 BEACON LIGHTS ......ON
 EMERGENCY LIGHTS ........ARM
 FMC ......SETUP (see below)
-
 
 ***********************************************************************
 FMC SETUP
@@ -49,7 +46,7 @@ PERF
   FLEX TEMP guesstimate, maybe 50
   Now you can pull V1, VR, V2 auto set
  
-
+Contact Delivery
 
 ***********************************************************************
 STARTUP
@@ -61,7 +58,9 @@ APU ....MASTER ON, then START
 APU BLEED ........ RUN (WHEN AVAILABLE)
 APU GEN .........ON / CHECK VOLTS
 EXT POWER .......OFF overhead and tablet
+
 Request Pushback – Initiate Pushback
+
 THRUST LEVERS .......IDLE
 ENGINE AREA .......CLEAR
 FUEL PUMP SWITCHES .......ON
