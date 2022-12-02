@@ -4,6 +4,10 @@ Load plane, start EFB, import simbrief plan
 EFB: weights page, load plane, connect GPU
      fuel tab: set here the correct fuel
 
+Load trackers
+     Volanta
+     FSAirlines, FSEconomy, Skypark, etc.
+
 ****************************************************************************
 PRE START 
 ****************************************************************************
