@@ -1,4 +1,5 @@
 Create simbrief flight plan
+Check ATIS if in VATSIM, in case they have an active RWY to select in simbrief
 
 Load plane, start EFB, import simbrief plan
 EFB: weights page, load plane, connect GPU
@@ -294,3 +295,17 @@ AVIONICS ....................................................................OFF
 NO SMOKING .............................................................OFF
 APU ............................................................AS REQUIRED
 BATTERIES ...............................................AS REQUIRED
+
+*************************************************************************
+THINGS THAT CAN BE DONE
+*************************************************************************
+CUSTOM WAYPOINTS
+     Type PLACE/BEARING/DISTANCE and place it in the flight plan where convenient.
+     Example: VNC/120/15 will place a new WPT at 120º and 15M from point VNC
+     Very useful to create reference points for DME arcs
+     
+DISTANCE RING
+     F-PLN -> top left button, then FIX. Now insert the name of a WPT, and a radius.
+     
+DISTANCE TO ANY WPT
+     PROG -> insert the waypoint to check the distance we are from
