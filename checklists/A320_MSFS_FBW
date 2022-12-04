@@ -1,5 +1,5 @@
-Create simbrief flight plan
 Check ATIS if in VATSIM, in case they have an active RWY to select in simbrief
+Create simbrief flight plan
 
 Load plane, start EFB, import simbrief plan
 EFB: weights page, load plane, connect GPU
