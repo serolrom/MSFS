@@ -309,3 +309,10 @@ DISTANCE RING
      
 DISTANCE TO ANY WPT
      PROG -> insert the waypoint to check the distance we are from
+     
+WPT CONSTRAINTS
+     Push button right of the WPT
+     Altitude restrictions can be inserted like:
+          2000-3500 (altitudes range)
+          2000      (at this altitude)
+          2000+ or 2000- (with the +/- button) to be at or above, ar ot below
