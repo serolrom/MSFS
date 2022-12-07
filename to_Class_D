@@ -1,0 +1,25 @@
+CLASS D: Two-way radio comm, they need to say your CALLSIGN and not deny permission explicitly
+
+get ATIS
+
+get altimeter
+get active RWY
+get ATIS code
+
+get ELEVATION
+
+set FREQUENCY
+get ready GND FREQUENCY
+get ready CHARTS
+
+CALL TWR ************************************
+
+-> <Airport> tower, <callsign>, [altitude], inbound to land, with ATIS
+:> <callsign> instructions (straight RWY XX, or base, etc.) report 3 miles final, etc.
+
+-> <Airport> tower, <callsign>, on final 3 miles (or whatever)
+:> <callsign> cleared to land RWY XX
+-> cleared to land RWY XX, <callsign>
+
+LAND ****************************************
+Clear the runway and stop until further clearance, maybe you get it from tower
