@@ -1,0 +1,5 @@
+When setting "VFR Pilot view save" gets a CTD
+
+Cameras.CFG
+Ensure the UITitle is not empty, change it to:
+UITitle="TT:GAME.PANE_CAMERA_PILOT_VFR"
