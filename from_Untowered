@@ -1,0 +1,32 @@
+Nav lights
+START UP *******************
+
+Set CTAF/UNICOM
+Check ATIS if available
+Set CTAF frequency
+
+Get active RWY
+Set altimeter
+Set VORs
+
+TAXI ***********************
+Set taxi lights
+-> <Airport> traffic, <callsign> taxi to runway, <Airport>
+
+TAKE OFF *******************
+Lights
+Transponder
+-> <Airport> traffic, <callsign> take off runway XX, departing to DIRECTION, <Airport>
+-> <Airport> traffic, <callsign> clear of runway XX, departing to DIRECTION, <Airport>
+-> <Airport> traffic, <callsign> leaving the airport to DIRECTION, <Airport>
+
+Set UNICOM
+
+CRUISE *********************
+Set cruise altitude
+Monitor UNICOM
+
+
+
+
+
