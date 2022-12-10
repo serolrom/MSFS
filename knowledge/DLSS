@@ -1,0 +1,87 @@
+How to DLSS:
+
+https://www.avsim.com/forums/topic/625639-dlss-more-ways-to-fine-tune-performance/
+
+ I have gone down the rabbit hole of DLSS, DSR Factors (nvidia control panel) and settings found in the UserCfg.opt file, so I wanted to share what I have found. For reference, I am running the beta and have a RTX 3080 running 2560 x 1440.
+
+Let's start with the basics. If you run DLSS in MSFS you have a few "Super Resolution" choices.
+
+- Quality
+- Balanced
+- Performance
+- Ultra Performance
+
+There's also Auto, but I didn't test that.
+
+In MSFS if you run Developer mode you can see 3 resolution numbers at the top.
+
+- Screen
+- Post
+- Render
+
+Here is what I have figured out. 
+
+Screen is the resolution that is shown on your monitor. Post is the resolution the image is processed at before being rendered. And rendered is the result of that processing back to your screen.  Here's an example. 
+
+In my case I had the initial settings when setting DLSS to Quality...
+
+- Screen 2560 x 1440
+- Post 2560 x 1440
+- Render 1707 x 960
+
+In this case my display was showing an image that was 67% of the original image (1707/2560). Depending on which option you select you get lowering levels of sharpness. 
+
+- Quality 67%
+- Balanced 58%
+- Performance 50%
+- Ultra Performance 33%
+
+In my case DLSS rendered 67% of my native resolution, which ended up not being very sharp. I had to zoom in to see my gauges clearly. So using DLSS out of the box probably isn't going to provide great results unless your resolution is closer to 4k, at which point you probably have some pixels to spare. 
+
+Theoretically DSR Factors is used to sort this issue out. In nVidia CP (NCP) I turned on DSR Factors 2.25. This would in theory get my clarity back. But it does something I didn't really care for.
+
+When I set it in NCP, I had to go into MSFS and change the resolution (in this case to 3840 x 2160). This made the following changes...
+
+- Screen 3840 x 2160
+- Post 3840 x 2160
+- Render 2560 x 1440
+
+As you can see, due to the Quality DLSS setting I had, the Render was 67% of the Post value. Sounds like a great solution, right? The problem I encountered was that at 3840 resolution I had lots of stutters. And I was running MSFS at 3840 but the rendered image was 2560. Not ideal. 
+
+What if I could keep my screen and render resolution at 2560 (native) but increase the post processing to sharpen up the gauges? This is where SecondaryScaling comes in. In the UserCfg.opt file found in \AppData\Roaming\Microsoft Flight Simulator\ I was able to increase the SecondaryScaling value to increase the Post value, without having to run a higher screen resolution.
+
+Here's the part of the file you need to experiment with... 
+
+Version 66
+{Video
+    Adapter "NVIDIA GeForce RTX 3080"
+    Monitor 0
+    Windowed 1
+    FullscreenBorderless 1
+    WindowActive 0
+    Resolution 2560 1411
+    FullScreenResolution 2560 1440
+    PosX 0
+    PosY 29
+    AntiAliasing DLSS
+    DLSSMode QUALITY
+    DLSSG 0
+    Reflex ON
+FSRMode QUALITY
+    PrimaryScaling 1.000000
+    SecondaryScaling 1.500000
+    SharpenAmount 1.000000
+    ReprojectionMode 0
+    WorldScalePercentVR 0
+    AntiAliasingVR TAA
+    DLSSModeVR PERFORMANCE
+    DLSSGVR 0
+    ReflexVR ON
+
+The SecondaryScaling value is a multiplier of your native resolution. In my case 2560 x 1.5 = 3840. Then I used the DLSS setting (Quality) to determine the Render resolution. In my case 3840 x .667 gets me back to 2560, my native resolution. 
+
+In summary, I wanted to run 2560 x 1440 resolution, but not have DLSS render the final image at a much lower resolution of 1707 x 960, because it really showed in the gauges and elsewhere. This solution allows you to play with the variables of SecondaryScaling and DLSS Super Resolution to get a crisp display while not tanking your FPS or smoothness.
+
+Here's another example...
+
+My screen is 2560 x 1440. If I wanted to increase my Post resolution to say 5,120 I would use a SecondaryScaling of 2.00. But then what do I want to render it at? If I want to get back to a Render resolution of 2560 I would use a DLSS Super Resolution setting of "Performance" in MSFS, since that is 50%.  
