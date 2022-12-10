@@ -5,6 +5,7 @@ ATIS
 QNH
 RWY
 SQWK
+INITIAL clb, expect ALT
 Freqs: DEL, GND, TWR, DEPT
 
 CONTACT DELIVERY ----------------------
