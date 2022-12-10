@@ -1,0 +1,71 @@
+Ready with CHARTS
+
+Form with fields:
+ATIS
+QNH
+RWY
+SQWK
+Freqs: DEL, GND, TWR, DEPT
+
+CONTACT DELIVERY ----------------------
+Figure out DEST, SID and Transition
+
+P: 
+<airport> Delivery, 
+<callsign> with information <ATIS> at <location>
+requesting IFR clearance to <Destination>  
+
+T:
+Cleared to xxxxxx via xxxxxx Departure, xxxxxx transition, then as filed
+Departure RWY:  < >
+Departure Freq: < >
+Sqwawk: 	< >
+
+P: Readback
+
+T: 
+Ground freq: 	< >
+
+CONTACT GROUND -------------------------
+Figure out route to RWY prior to contact
+
+P: 
+<airport> Ground,
+<callsign>  ready to taxi with ATIS
+
+T:
+Taxi and hold short of <RWY> via <Route>
+
+P: 
+Readback
+
+HANDOFF to TOWER ------------------------
+T:
+Contact tower on < >
+
+P: 
+<airport> Tower, 
+<callsign> holding short RWY xx
+
+T:
+Line up and wait or Cleared take off
+
+T:
+- Fly RWY heading 
+- Climb via SID
+
+HANDOFF to DEPT -------------------------
+[...
+
+
+
+
+
+
+
+
+
+
+
+
+
