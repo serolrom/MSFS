@@ -6,7 +6,7 @@ AVIONICS - DISPATCH (right switch down)
 
 FMC - IDX - PAGE2 - MOD SET - GND POWER
 FMC - POS INIT - COPY/PASTE the given one
-FMC - IDX - PAGE2 - ROUTE MENU - Import FPL
+FMC - IDX - PAGE2 - ROUTE MENU - Import FPL - EXEC
 FMC - Add Departure and Arrival
  AVIONICS -> ON
 FMC - Performance INIT
