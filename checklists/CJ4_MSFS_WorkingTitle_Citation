@@ -27,6 +27,15 @@ FLAPS
 LIGHTS
 TAKE OFF
 
+***
+
+Descent:
+Provided a constraint is already defined in the flight plan:
+Set the altimeter to the desired target altitude
+Press VNAV button: a TOD point will show up
+The MFD changes from ALT to VPATH, and a planned descent shows up like an ILS
+It roughly calculates by the 3xDistance rule
+
 
 -------------------------------------------------------
 Custom WPTs: WPT[BRG]/DIST/NAME
