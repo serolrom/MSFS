@@ -4,13 +4,33 @@ Create simbrief plan
 BATTERY - ON
 AVIONICS - DISPATCH (right switch down)
 
-FMC - IDX - PAGE2 - MOD SET - GND POWER
-FMC - POS INIT - COPY/PASTE the given one
-FMC - IDX - PAGE2 - ROUTE MENU - Import FPL - EXEC
-FMC - Add Departure and Arrival
- AVIONICS -> ON
-FMC - Performance INIT
-FMC - Performance Take OFF, then NEXT -> SEND
+FMC - IDX - NEXT - MOD SET - GND POWER
+FMC - IDX - POS INIT - COPY/PASTE the given one
+FMC - IDX - NEXT - ROUTE MENU - Import FPL - EXEC
+FMC - DEP/ARR - Add Departure and Arrival
+FMC - PERF - PERF INIT - TAKEOFF - set wind and OAT - NEXT - SEND
+
+AVIONICS -> ON
+EMER LIGHTS ARMED
+SBY FTL DISPLAY ON
+
+LIGHTS
+START ENGINES
+SET BARO
+AUTOPILOT ON/OFF
+PITOT HEAT AND DEICE
+
+FMC - TUN - TCAS->TA/RA
+TAXI LIGHTS, TAXI and HOLD SHORT
+
+FLAPS
+LIGHTS
+TAKE OFF
+
+
+
+
+
 
 START ENGINES: Checklist button, go through it
 https://drive.google.com/file/d/1Znd_krRvwBH0J_f0uwdlI-t-bSk93xal/edit
