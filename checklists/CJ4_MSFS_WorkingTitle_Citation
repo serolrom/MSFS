@@ -36,6 +36,8 @@ Press VNAV button: a TOD point will show up
 The MFD changes from ALT to VPATH, and a planned descent shows up like an ILS
 It roughly calculates by the 3xDistance rule
 
+FMC - PERF - APPROACH - Set dest. data, then NEXT - SEND
+
 
 -------------------------------------------------------
 Custom WPTs: WPT[BRG]/DIST/NAME
