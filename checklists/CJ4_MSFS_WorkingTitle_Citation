@@ -1,6 +1,6 @@
 Create simbrief plan
 
-
+NAV LIGHT - ON
 BATTERY - ON
 AVIONICS - DISPATCH (right switch down)
 
@@ -9,6 +9,8 @@ FMC - IDX - POS INIT - COPY/PASTE the given one
 FMC - IDX - NEXT - ROUTE MENU - Import FPL - EXEC
 FMC - DEP/ARR - Add Departure and Arrival
 FMC - PERF - PERF INIT - TAKEOFF - set wind and OAT - NEXT - SEND
+
+*** START ENGINES **************************************************
 
 AVIONICS -> ON
 EMER LIGHTS ARMED
@@ -20,6 +22,8 @@ SET BARO
 AUTOPILOT ON/OFF
 PITOT HEAT AND DEICE
 
+*** TAXI **********************************************************
+
 FMC - TUN - TCAS->TA/RA
 TAXI LIGHTS, TAXI and HOLD SHORT
 
@@ -27,7 +31,7 @@ FLAPS
 LIGHTS
 TAKE OFF
 
-***
+*** DESCEND *******************************************************
 
 Descent:
 Provided a constraint is already defined in the flight plan:
@@ -38,11 +42,15 @@ It roughly calculates by the 3xDistance rule
 
 FMC - PERF - APPROACH - Set dest. data, then NEXT - SEND
 
+*** AFTER LANDING *************************************************
 
--------------------------------------------------------
+TAXI LIGHTS
+DE-ICING OFF
+
+
+
+-------------------------------------------------------------------
 Custom WPTs: WPT[BRG]/DIST/NAME
 
 
 
-START ENGINES: Checklist button, go through it
-https://drive.google.com/file/d/1Znd_krRvwBH0J_f0uwdlI-t-bSk93xal/edit
