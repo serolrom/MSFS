@@ -41,6 +41,7 @@ The MFD changes from ALT to VPATH, and a planned descent shows up like an ILS
 It roughly calculates by the 3xDistance rule
 
 FMC - PERF - APPROACH - Set dest. data, then NEXT - SEND
+FMC - TUN - Tune ILS where needed
 
 *** AFTER LANDING *************************************************
 
