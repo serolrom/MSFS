@@ -1,0 +1,70 @@
+Time for cold and dark?
+	182 @ 20:30 cold and dark
+	182 @ 21:15 fluids charged
+	182 @ 22:45 SMES start to charge
+	183 @ 00:00 SMES charged
+Time for departure since undocking
+	Transit time around 40 min (10 for prep, 30 for transit)
+	183 @ 00:40 At departure point
+Time to power up the reactor?
+Time to spool up?
+
+--------------------------------------------
+MRU 
+--------------------------------------------
+COLD AND DARK
+
+Master inhibit
+Electrical system
+Thermal system
+Request station services
+Fill fluids, enable pressure pumps
+	Close when done
+	Then wait for SMESs to charge when under 45ºK
+
+
+Comms set up
+	Turn 3 stations ON
+	Set first slot ON for SRPS, RX ON
+NAV Systems ON
+Avionics setup
+	Thrust ON, set to APP
+	Set station as reference, download data
+	Thrust axis to SHIP
+	INUs should be calibrated, but they will eventually do
+
+Last bits
+	*Engage SMESs protection systems
+	*Thermal system regulation (text box -> enable the colored point)
+
+--------------------------------------------
+OTC link setup
+	Select slots for Beacon, and for OTC slot and relay
+	Contact OTC
+Request departure
+	Give some delay for margin
+--------------------------------------------
+DEPARTURE
+Cryo fluids open
+Main bus only one section, disconnect from main 
+APU(s) ON
+Controls set to App, Orb set to APP
+MRUs ON
+Engage maneouver autopilot control
+Systems monitoring set to Undock
+Undock!
+
+Expect instructions and transit data from OTC
+Send to controller when received
+
+
+
+
+--------------------------------------------
+Select a body in the map
+
+AUTOMATIC FLIGHT PLANNER
+Button: Set the selected map object as destination
+Button: Planning start = existing plan start time + delay (give reasonable delay with the wheel)
+Button: Reckon - to check everything is right
+Button: Plan - to create the planned route
