@@ -68,3 +68,20 @@ Button: Set the selected map object as destination
 Button: Planning start = existing plan start time + delay (give reasonable delay with the wheel)
 Button: Reckon - to check everything is right
 Button: Plan - to create the planned route
+
+--------------------------------------------
+
+
+
+
+On last burn: report procedure maneouver
+After burn: Reactor to minimum
+When reactor shows STOP button (not emergency stop), stop it
+Close reactor fluids valves
+Close thermal emergency buttons
+Close electrical emergency buttons
+Set thrust to linear
+Anchor the target and download app data
+Set thrusters and orb to APP, engage thrust controller for APP
+
+
