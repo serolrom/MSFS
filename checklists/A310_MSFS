@@ -1,3 +1,4 @@
+Batteries ON (x3)
 Ext PWR
 White or orange lights -> turn off
 INS -> Nav (x3)
@@ -6,19 +7,23 @@ INS -> Nav (x3)
 MCDU:
 CLR
 Menu -> Acars -> Enter Simbrief username
+Menu -> Acars -> Request Simbrief 
 
 INIT -> Align IRS, Cost index
-Next page -> Set weights on EFB from simbrief
-	then transfer values to MCDU
+(EFB  -> Set weights (scale icon) from simbrief)
+Next page -> transfer values to MCDU from the EFB
 	
 F-PLN -> select DPT Airport -> Select SID
 go down to end of flt. plan -> select STAR
 
-T/O APPR -> get to the 'plane icon' in the EFB
-Insert needed values in EFB (get weight from the INIT -> Next page)
-Click on CALCULATE in EFB to get the V speeds and Flex
+(EFB -> Go to the 'plane icon'
+	RUNWAY CONDITIONS -> Press the refresh button
+	RWY LENGHT -> Click the button below in the EFB which has this number
+	OUTPUT -> CALCULATE button, it will give Vs and Flex)
 
+T/O APPR -> Insert needed values in EFB (get weight from the INIT -> Next page)
 
+----------------------------------------------------
 
 APU Master switch ON -> Start -> It takes pretty long
 When APU is AVAIL -> APU Bleed ON
